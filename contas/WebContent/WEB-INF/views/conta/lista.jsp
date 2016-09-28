@@ -39,6 +39,8 @@
 			<td>
 				<a href="removeConta?id=${conta.id}">Deletar</a>
 			</td>
+			<td>
+			<a href="mostraConta?id=${conta.id}" >Alterar</a></td>
 		</tr>
 		</c:forEach>
 	</table>
